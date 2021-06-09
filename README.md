@@ -25,6 +25,8 @@
 
 [![](https://img.shields.io/badge/官方网站-www.coreshop.com.cn-brightgreen)](https://www.corecms.net/)  [![](https://img.shields.io/badge/QQ群-70494974-red)](https://jq.qq.com/?_wv=1027&k=y83TiQC7)
 
+<h3 align="center">本库仅定期更新镜像，最新更新请访问主站：https://gitee.com/CoreUnion/CoreShop</h3>
+
 ------------------------------------------------------------------------
 
 </div>
