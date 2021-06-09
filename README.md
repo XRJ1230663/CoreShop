@@ -32,7 +32,7 @@
 </div>
 
 #### 💐核心商城（CoreShop）介绍
-> 核心小程序商城系统`CoreShop` 是基于 Asp.Net Core 5.0、Uni-App开发，支持可视化布局的小程序商城系统，前后端分离，支持分布式部署，跨平台运行，拥有分销、代理、团购、拼团、秒杀、直播、优惠券、自定义表单等众多营销功能，拥有完整SKU、下单、售后、物流流程，支持可视化自定义首页模块布局效果。    
+> 核心小程序商城系统`（CoreShop）` 是基于 Asp.Net 5.0、Uni-App开发，支持可视化布局的小程序商城系统，前后端分离，支持分布式部署，跨平台运行，拥有分销、代理、团购、拼团、秒杀、直播、优惠券、自定义表单等众多营销功能，拥有完整SKU、下单、售后、物流流程，支持可视化自定义首页模块布局效果。    
 
 > 支持一套代码编译发布微信小程序版、H5版、Android版、iOS版、支付宝小程序版、百度小程序版、字节跳动小程序版、QQ小程序版、快应用、360小程序共10个平台。    
 
@@ -83,10 +83,11 @@
 
 |  |
 |---------------------|
-| ![首页](https://files.cdn.corecms.net/coreshop/images/WeChat/01.jpg)  |
-| ![商家](https://files.cdn.corecms.net/coreshop/images/WeChat/02.jpg)  |
-| ![代理](https://files.cdn.corecms.net/coreshop/images/WeChat/03.jpg)  |
-| ![分销](https://files.cdn.corecms.net/coreshop/images/WeChat/04.jpg)  |
+| ![小程序截图](https://files.cdn.corecms.net/coreshop/images/WeChat/01.jpg)  |
+| ![小程序截图](https://files.cdn.corecms.net/coreshop/images/WeChat/02.jpg)  |
+| ![小程序截图](https://files.cdn.corecms.net/coreshop/images/WeChat/03.jpg)  |
+| ![小程序截图](https://files.cdn.corecms.net/coreshop/images/WeChat/04.jpg)  |
+| ![小程序截图](https://files.cdn.corecms.net/coreshop/images/WeChat/05.jpg)  |
 
 #### 🎏后端截图  
 
@@ -100,12 +101,35 @@
 | ![截图](https://files.cdn.corecms.net/coreshop/images/Admin/11.png)  | ![截图](https://files.cdn.corecms.net/coreshop/images/Admin/12.png)  |
 
 
-#### 🎨系统演示二维码  
+#### 🎨系统演示  
 
 | h5演示 | 微信小程序演示 |
 |---------------------|---------------------|
 | ![h5演示](https://files.cdn.corecms.net/coreshop/images/QRCode/h5qCode.jpg)  | ![微信小程序演示](https://files.cdn.corecms.net/coreshop/images/QRCode/wxqCode.jpg)  |
 
+
+1、H5网页演示地址：  
+https://h5.coreshop.corecms.net  
+
+2、后端管理演示地址：  
+https://admin.coreshop.corecms.net  
+账号：coreshop  
+密码：coreshop  
+
+3、后端接口文档地址：  
+https://admin.coreshop.corecms.net/doc  
+
+
+4、接口管理演示地址：  
+https://api.coreshop.corecms.net  
+
+5、接口文档地址：  
+https://api.coreshop.corecms.net/doc  
+
+6、定时任务面板演示地址：  
+https://api.coreshop.corecms.net/job  
+账号：coreshop  
+密码：coreshop 
 
 
 ### 🌈技术选型
@@ -113,22 +137,22 @@
 #### 🏢后端框架结构说明  
 
 
-| 技术 | 名称 | 版本 | 描述 |
-| --- | --- | --- | --- |
-| Asp.net Core MVC  | 应用框架 | [![nuget](https://img.shields.io/nuget/v/Microsoft.AspNetCore.Mvc.Core?cacheSeconds=10800)](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Core/)  [![nuget](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.Core)](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Core/) |  |
-| Asp.net Core WebApi  | Api框架 |  [![nuget](https://img.shields.io/nuget/v/Microsoft.AspNet.WebApi.Core?cacheSeconds=10800)](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Core/)  [![nuget](https://img.shields.io/nuget/dt/Microsoft.AspNet.WebApi.Core)](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Core/) |  |
-| Swagger2 | Api文档 | [![nuget](https://img.shields.io/nuget/v/Swashbuckle.AspNetCore?cacheSeconds=10800)](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)  [![nuget](https://img.shields.io/nuget/dt/Swashbuckle.AspNetCore)](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) |  |
-| AutoFac | IOC框架 |  [![nuget](https://img.shields.io/nuget/v/Autofac.Extensions.DependencyInjection?cacheSeconds=10800)](https://www.nuget.org/packages/Autofac.Extensions.DependencyInjection/)  [![nuget](https://img.shields.io/nuget/dt/Autofac.Extensions.DependencyInjection)](https://www.nuget.org/packages/Autofac.Extensions.DependencyInjection/) |  |
-| SqlSugar | ORM框架 |  [![nuget](https://img.shields.io/nuget/v/SqlSugar?cacheSeconds=10800)](https://www.nuget.org/packages/SqlSugar/)  [![nuget](https://img.shields.io/nuget/dt/SqlSugar)](https://www.nuget.org/packages/SqlSugar/) |  |
-| AutoMapper | 实体映射 |  [![nuget](https://img.shields.io/nuget/v/AutoMapper?cacheSeconds=10800)](https://www.nuget.org/packages/AutoMapper/)  [![nuget](https://img.shields.io/nuget/dt/AutoMapper)](https://www.nuget.org/packages/AutoMapper/) |  |
-| DotLiquid | 模板引擎 |  [![nuget](https://img.shields.io/nuget/v/DotLiquid?cacheSeconds=10800)](https://www.nuget.org/packages/DotLiquid/)  [![nuget](https://img.shields.io/nuget/dt/DotLiquid)](https://www.nuget.org/packages/DotLiquid/) |  |
-| Nlog | 日志组件 |  [![nuget](https://img.shields.io/nuget/v/NLog.Web.AspNetCore?cacheSeconds=10800)](https://www.nuget.org/packages/NLog.Web.AspNetCore/)  [![nuget](https://img.shields.io/nuget/dt/NLog.Web.AspNetCore)](https://www.nuget.org/packages/NLog.Web.AspNetCore/) |  |
-| Redis | 数据缓存 |   [![nuget](https://img.shields.io/nuget/v/StackExchange.Redis?cacheSeconds=10800)](https://www.nuget.org/packages/StackExchange.Redis/)  [![nuget](https://img.shields.io/nuget/dt/StackExchange.Redis)](https://www.nuget.org/packages/StackExchange.Redis/) |  |
-| Jwt | 授权认证 |  [![nuget](https://img.shields.io/nuget/v/IdentityModel?cacheSeconds=10800)](https://www.nuget.org/packages/IdentityModel/)  [![nuget](https://img.shields.io/nuget/dt/IdentityModel)](https://www.nuget.org/packages/IdentityModel/) |  |
-| HangFire | 定时任务 |  [![nuget](https://img.shields.io/nuget/v/HangFire?cacheSeconds=10800)](https://www.nuget.org/packages/HangFire/)  [![nuget](https://img.shields.io/nuget/dt/HangFire)](https://www.nuget.org/packages/HangFire/) |  |
-| Payment  | 在线支付 |   [![nuget](https://img.shields.io/nuget/v/Essensoft.AspNetCore.Payment.WeChatPay?cacheSeconds=10800)](https://www.nuget.org/packages/Essensoft.AspNetCore.Payment.WeChatPay/)  [![nuget](https://img.shields.io/nuget/dt/Essensoft.AspNetCore.Payment.WeChatPay)](https://www.nuget.org/packages/Essensoft.AspNetCore.Payment.WeChatPay/) |  |
-| Senparc.Weixin | 微信SDK |   [![nuget](https://img.shields.io/nuget/v/Senparc.Weixin?cacheSeconds=10800)](https://www.nuget.org/packages/Senparc.Weixin/)  [![nuget](https://img.shields.io/nuget/dt/Senparc.Weixin)](https://www.nuget.org/packages/Senparc.Weixin/) |  |
-| LayUIAdmin | 后端管理UI框架 |  [![npm](https://img.shields.io/npm/v/layui.svg?sanitize=true)](https://www.layui.com/)  [![github](https://img.shields.io/github/stars/zhangyd-c/JustAuth.svg?style=social)](https://www.layui.com/) |  |
+| 技术 | 名称 | 版本 | 
+| --- | --- | --- | 
+| Asp.net Core MVC  | 应用框架 | [![nuget](https://img.shields.io/nuget/v/Microsoft.AspNetCore.Mvc.Core?cacheSeconds=10800)](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Core/)  [![nuget](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.Core)](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Core/) |  
+| Asp.net Core WebApi  | Api框架 |  [![nuget](https://img.shields.io/nuget/v/Microsoft.AspNet.WebApi.Core?cacheSeconds=10800)](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Core/)  [![nuget](https://img.shields.io/nuget/dt/Microsoft.AspNet.WebApi.Core)](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Core/) |  
+| Swagger2 | Api文档 | [![nuget](https://img.shields.io/nuget/v/Swashbuckle.AspNetCore?cacheSeconds=10800)](https://www.nuget.org/packages/Swashbuckle.AspNetCore/)  [![nuget](https://img.shields.io/nuget/dt/Swashbuckle.AspNetCore)](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) |  
+| AutoFac | IOC框架 |  [![nuget](https://img.shields.io/nuget/v/Autofac.Extensions.DependencyInjection?cacheSeconds=10800)](https://www.nuget.org/packages/Autofac.Extensions.DependencyInjection/)  [![nuget](https://img.shields.io/nuget/dt/Autofac.Extensions.DependencyInjection)](https://www.nuget.org/packages/Autofac.Extensions.DependencyInjection/) |  
+| SqlSugar | ORM框架 |  [![nuget](https://img.shields.io/nuget/v/SqlSugar?cacheSeconds=10800)](https://www.nuget.org/packages/SqlSugar/)  [![nuget](https://img.shields.io/nuget/dt/SqlSugar)](https://www.nuget.org/packages/SqlSugar/) |  
+| AutoMapper | 实体映射 |  [![nuget](https://img.shields.io/nuget/v/AutoMapper?cacheSeconds=10800)](https://www.nuget.org/packages/AutoMapper/)  [![nuget](https://img.shields.io/nuget/dt/AutoMapper)](https://www.nuget.org/packages/AutoMapper/) |  
+| DotLiquid | 模板引擎 |  [![nuget](https://img.shields.io/nuget/v/DotLiquid?cacheSeconds=10800)](https://www.nuget.org/packages/DotLiquid/)  [![nuget](https://img.shields.io/nuget/dt/DotLiquid)](https://www.nuget.org/packages/DotLiquid/) |  
+| Nlog | 日志组件 |  [![nuget](https://img.shields.io/nuget/v/NLog.Web.AspNetCore?cacheSeconds=10800)](https://www.nuget.org/packages/NLog.Web.AspNetCore/)  [![nuget](https://img.shields.io/nuget/dt/NLog.Web.AspNetCore)](https://www.nuget.org/packages/NLog.Web.AspNetCore/) |  
+| Redis | 数据缓存 |   [![nuget](https://img.shields.io/nuget/v/StackExchange.Redis?cacheSeconds=10800)](https://www.nuget.org/packages/StackExchange.Redis/)  [![nuget](https://img.shields.io/nuget/dt/StackExchange.Redis)](https://www.nuget.org/packages/StackExchange.Redis/) |  
+| Jwt | 授权认证 |  [![nuget](https://img.shields.io/nuget/v/IdentityModel?cacheSeconds=10800)](https://www.nuget.org/packages/IdentityModel/)  [![nuget](https://img.shields.io/nuget/dt/IdentityModel)](https://www.nuget.org/packages/IdentityModel/) |  
+| HangFire | 定时任务 |  [![nuget](https://img.shields.io/nuget/v/HangFire?cacheSeconds=10800)](https://www.nuget.org/packages/HangFire/)  [![nuget](https://img.shields.io/nuget/dt/HangFire)](https://www.nuget.org/packages/HangFire/) |  
+| Payment  | 在线支付 |   [![nuget](https://img.shields.io/nuget/v/Essensoft.AspNetCore.Payment.WeChatPay?cacheSeconds=10800)](https://www.nuget.org/packages/Essensoft.AspNetCore.Payment.WeChatPay/)  [![nuget](https://img.shields.io/nuget/dt/Essensoft.AspNetCore.Payment.WeChatPay)](https://www.nuget.org/packages/Essensoft.AspNetCore.Payment.WeChatPay/) |  
+| Senparc.Weixin | 微信SDK |   [![nuget](https://img.shields.io/nuget/v/Senparc.Weixin?cacheSeconds=10800)](https://www.nuget.org/packages/Senparc.Weixin/)  [![nuget](https://img.shields.io/nuget/dt/Senparc.Weixin)](https://www.nuget.org/packages/Senparc.Weixin/) |  
+| LayUIAdmin | 后端管理UI框架 |  [![npm](https://img.shields.io/npm/v/layui.svg?sanitize=true)](https://www.layui.com/)  [![github](https://img.shields.io/github/stars/sentsin/layui.svg?style=social)](https://www.layui.com/) |  
 
 
 #### 🍭后端技术看点
@@ -154,7 +178,7 @@
 | 技术 | 官网 | 版本 | 描述 |
 | --- | --- | --- | --- |
 | uni-app | https://uniapp.dcloud.io/ |  | 跨平台应用前端框架 | 
-| uView UI | http://uviewui.com/ |  | 组件功能强丰富|
+| uView UI | http://uviewui.com/ | v1.8.4 | 组件功能强丰富|
 | Color UI | https://www.color-ui.com/ | V2.02 | 很漂亮的UI组件，专注于视觉 |
 
 
@@ -165,17 +189,28 @@
 - HBuilderX
 - 微信开发者工具
 - SQL Server Management Studio / Navicat for MySQL
-- 
+
 
 
 ### 💝运维环境
 
 - （必选）Windows IIS7.5或以上/Docker/k8s等支持环境
 - （必选）sqlserver 2012R2+ / MySQL 5.6+
-- （可选）阿里云OSS/腾讯云OSS
-- （可选）支持https协议的域名
-- （可选）Redis 5.7或以上版本
+- （必选）支持https协议的域名
+- （必选）阿里云OSS/腾讯云OSS
+- （必选）Redis 5.7或以上版本
 - （可选）易联云网络打印机
+
+
+### ⛵安装及说明文档
+- 由于文档内容较多，请加QQ群【70494974】后群内下载安装文档，或git源代码后从代码目录【文档】中获取。
+
+
+### ⚡进度及计划  
+- CoreShop项目虽然目前完成了通用商城该有的功能开发，但是因为业务逻辑层面的功能繁多，bug存在不少，不可否认很多非常明显的bug也存在不少。
+- 我们团队能力有限，但我们也会努力在短期内消灭掉明显的Bug。
+- 目前我们主要工作是修复Bug、完善测试、优化业务逻辑、编写文档及官网的建设。
+- 原定新功能的开发暂时会搁置（增加接龙功能，增加微信直播及历史回播功能，增加多商家入驻功能等）。
 
 ### 🎏版权须知
 - 允许个人学习研究使用，支持二次开发。
@@ -186,8 +221,9 @@
 
 
 ### 🎉鸣谢
-感谢以下开源项目给我们提供了学习和思考的方向：
-- Blog.Core
+感谢以下项目给我们提供了学习和思考的方向：
+- LayUI（贤心）
+- Blog.Core（老张）
 - Crmeb
 - Weshop
 - Jshop
